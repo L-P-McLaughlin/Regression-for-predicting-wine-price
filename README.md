@@ -1,1 +1,1 @@
-# Regression-for-predicting-wine-price
+# Using regression to predict the price of wine
