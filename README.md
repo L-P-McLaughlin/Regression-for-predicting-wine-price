@@ -9,6 +9,8 @@ Regression was implemented using 3 different methods: a Decision Tree Regressor,
 The data was split into a 33% test split and mean-squared-error was used to measure the performance. This was then repeated 100 times for each method to obtain an average mean-squared-error.
 
 On average the Bases Ridge performed the worst, with an average score of 730.7 over the 100 trials. The Decision tree and Gradient Boosting both performed around the same at 405.4 and 401.1 respectively. 
+![image](https://user-images.githubusercontent.com/60330103/222130827-f8c62e15-183f-4615-94ff-f695865de337.png)
+We can see from this distribution of scores from the 100 trials that the models perform at a very similar level.
 
 If we take a look at the predictions made (in this instance by the Gradient Boosting Regressor) then they seem for the most part reasonably accurate. We can see a sample of predicted prices compared to actual prices below; with the actual price on the left, and the predicted price on the right, for 20 samples.
 
